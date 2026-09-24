@@ -1,14 +1,17 @@
 #include <iostream>
+#include <string>
 
-namespace mini_database{
+using namespace std;
 
-class Database{
-  public: 
-    void set(const std::string key, const std::string value);
-    int get(const std::string key);
-    void remove(const std::string key);
-    void list();
+namespace mini_database {
+
+class Database {
+public:
+  int set(const string key, const string value);
+  int get(const string key);
+  int add(const string key, const string value);
+  int remove(const string key);
+  int list();
 };
 
-}
-
+} // namespace mini_database
