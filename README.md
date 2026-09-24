@@ -2,9 +2,9 @@
   <img src="./assets/database.svg" alt="Mini Database icon" width="112" height="112" />
 </p>
 
-# Mini Database
+<h1 align="center">Mini Database</h1>
 
-A small, file-backed key-value database written in C++—just a fun side project.
+<p align="center">A small, file-backed key-value database written in C++.</p>
 
 ## Features
 
